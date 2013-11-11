@@ -117,6 +117,7 @@
 @synthesize publishEnablediPhone;
 @synthesize publishEnabledAndroid;
 @synthesize publishEnabledHTML5;
+@synthesize publishCommandPath;
 @synthesize publishResolution_;
 @synthesize publishResolution_hd;
 @synthesize publishResolution_ipad;
@@ -159,6 +160,7 @@
     self.publishDirectory = @"Published-iOS";
     self.publishDirectoryAndroid = @"Published-Android";
     self.publishDirectoryHTML5 = @"Published-HTML5";
+    self.publishCommandPath = @"";
     self.onlyPublishCCBs = NO;
     self.flattenPaths = NO;
     self.javascriptBased = YES;
@@ -220,10 +222,12 @@
     self.publishDirectory = [dict objectForKey:@"publishDirectory"];
     self.publishDirectoryAndroid = [dict objectForKey:@"publishDirectoryAndroid"];
     self.publishDirectoryHTML5 = [dict objectForKey:@"publishDirectoryHTML5"];
+    self.publishCommandPath = [dict objectForKey:@"publishCommandPath"];
     
     if (!publishDirectory) self.publishDirectory = @"";
     if (!publishDirectoryAndroid) self.publishDirectoryAndroid = @"";
     if (!publishDirectoryHTML5) self.publishDirectoryHTML5 = @"";
+    if (!publishCommandPath) self.publishCommandPath = @"";
     
     self.publishEnablediPhone = [[dict objectForKey:@"publishEnablediPhone"] boolValue];
     self.publishEnabledAndroid = [[dict objectForKey:@"publishEnabledAndroid"] boolValue];
@@ -325,6 +329,7 @@
     [dict setObject:publishDirectory forKey:@"publishDirectory"];
     [dict setObject:publishDirectoryAndroid forKey:@"publishDirectoryAndroid"];
     [dict setObject:publishDirectoryHTML5 forKey:@"publishDirectoryHTML5"];
+    [dict setObject:publishCommandPath forKey:@"publishCommandPath"];
     
     [dict setObject:[NSNumber numberWithBool:publishEnablediPhone] forKey:@"publishEnablediPhone"];
     [dict setObject:[NSNumber numberWithBool:publishEnabledAndroid] forKey:@"publishEnabledAndroid"];

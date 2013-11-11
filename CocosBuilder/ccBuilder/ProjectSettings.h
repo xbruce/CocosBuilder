@@ -63,6 +63,7 @@
     NSString* publishDirectory;
     NSString* publishDirectoryAndroid;
     NSString* publishDirectoryHTML5;
+    NSString* publishCommandPath;
     
     BOOL publishEnablediPhone;
     BOOL publishEnabledAndroid;
@@ -111,6 +112,7 @@
 @property (nonatomic,assign) BOOL publishEnabledAndroid;
 @property (nonatomic,assign) BOOL publishEnabledHTML5;
 
+@property (nonatomic, copy) NSString* publishCommandPath;
 @property (nonatomic, copy) NSString* publishDirectory;
 @property (nonatomic, copy) NSString* publishDirectoryAndroid;
 @property (nonatomic, copy) NSString* publishDirectoryHTML5;

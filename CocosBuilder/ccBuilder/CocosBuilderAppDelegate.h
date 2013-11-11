@@ -346,6 +346,7 @@ enum {
 - (void) publisher:(CCBPublisher*)publisher finishedWithWarnings:(CCBWarnings*)warnings;
 - (IBAction)runProject:(id)sender;
 - (IBAction) menuPublishProjectAndRun:(id)sender;
+- (IBAction) menuPublishProjectWithCommand:(id)sender;
 - (IBAction) menuPublishProjectAndRunInBrowser:(id)sender;
 
 // For warning messages

@@ -2294,6 +2294,10 @@ static BOOL hideAllToNextSeparator;
     [CCBPublisher cleanAllCacheDirectories];
 }
 
+- (IBAction) menuPublishProjectWithCommand:(id)sender {
+    
+}
+
 // Temporary utility function until new publish system is in place
 - (IBAction)menuUpdateCCBsInDirectory:(id)sender
 {
