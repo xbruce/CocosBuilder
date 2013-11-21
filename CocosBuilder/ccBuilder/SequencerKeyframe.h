@@ -54,6 +54,7 @@ enum
     float time;
     float timeAtDragStart;
     BOOL selected;
+    BOOL repeatForver;
     
     SequencerNodeProperty* parent;
     SequencerKeyframeEasing* easing;
@@ -66,6 +67,7 @@ enum
 @property (nonatomic,assign) float time;
 @property (nonatomic,assign) float timeAtDragStart;
 @property (nonatomic,assign) BOOL selected;
+@property (nonatomic,assign) BOOL repeatForver;
 
 @property (nonatomic,assign) SequencerNodeProperty* parent;
 @property (nonatomic,retain) SequencerKeyframeEasing* easing;

@@ -65,7 +65,11 @@
     if (y < 0) return kCCBRowNoneBelow;
     else if (y >= (self.bounds.size.height - kCCBSeqScrubberHeight)) return kCCBRowNoneAbove;
     
-    return [outlineView rowAtPoint:convPoint];
+    int row = [outlineView rowAtPoint:convPoint];
+    
+    [outlineView selectRowIndexes:[NSIndexSet indexSetWithIndex:row] byExtendingSelection:NO];
+    
+    return row;
 }
 
 - (int) yMousePosToSubRow:(float)y
@@ -839,6 +843,9 @@
         }
     }
     
+    SequencerSequence* seq = [SequencerHandler sharedHandler].currentSequence;
+    seq.timelinePosition = [seq positionToTime:mouseLocation.x];
+    
     // Clean up
     mouseState = kCCBSeqMouseStateNone;
     [self autoScrollHorizontalDirection:kCCBSeqAutoScrollHorizontalNone];
@@ -879,6 +886,7 @@
     if (keyframe)
     {
         [SequencerHandler sharedHandler].contextKeyframe = keyframe;
+        return [CocosBuilderAppDelegate appDelegate].menuContextKeyframeInterpol;
         return [CocosBuilderAppDelegate appDelegate].menuContextKeyframe;
     }
     

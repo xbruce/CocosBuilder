@@ -36,4 +36,52 @@
     return self.horizontalAlignment;
 }
 
+- (float) shadowX {
+    return _shadowX;
+}
+
+- (float) shadowY {
+    return _shadowY;
+}
+
+- (void) setShadowX:(float)shadowX {
+    _shadowX = shadowX;
+}
+
+- (void) setShadowY:(float)shadowY {
+    _shadowY = shadowY;
+}
+
+- (float) shadowRadius {
+    return _shadowRadius;
+}
+
+- (void) setShadowRadius:(float)shadowRadius {
+    _shadowRadius = shadowRadius;
+}
+
+- (ccColor4B) shadowColor {
+    return _shadowColor;
+}
+
+- (void) setShadowColor:(ccColor4B)color {
+    _shadowColor = color;
+}
+
+- (float) strokeWidth {
+    return _strokeWidth;
+}
+
+- (void) setStrokeWidth:(float)strokeWidth {
+    _strokeWidth = strokeWidth;
+}
+
+- (ccColor4B) strokeColor {
+    return _strokeColor;
+}
+
+- (void) setStrokeColor:(ccColor4B)color {
+    _strokeColor = color;
+}
+
 @end

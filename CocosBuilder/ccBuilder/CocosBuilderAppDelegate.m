@@ -3335,6 +3335,20 @@ static BOOL hideAllToNextSeparator;
     [sequenceHandler updatePropertiesToTimelinePosition];
 }
 
+- (IBAction)menuSetActionRepeatForver:(id)sender {
+    for (SequencerKeyframe *keyframe in sequenceHandler.selectedKeyframesForCurrentSequence) {
+        keyframe.repeatForver = YES;
+    }
+    [sequenceHandler deselectAllKeyframes];
+}
+
+- (IBAction)menuRemoveActionRepeatForever:(id)sender {
+    for (SequencerKeyframe *keyframe in sequenceHandler.selectedKeyframesForCurrentSequence) {
+        keyframe.repeatForver = NO;
+    }
+    [sequenceHandler deselectAllKeyframes];
+}
+
 - (IBAction)menuSetEasingOption:(id)sender
 {
     if (!currentDocument) return;

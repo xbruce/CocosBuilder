@@ -411,6 +411,42 @@
             if (!spriteFile) spriteFile = @"";
             serializedValue = spriteFile;
         }
+        else if ([type isEqualToString:@"Stroke"]) {
+            NSNumber *width = [node valueForKey:[NSString stringWithFormat:@"%@Width", name]];
+            NSValue* colorValue = [node valueForKey:[NSString stringWithFormat:@"%@Color", name]];
+            ccColor4B c;
+            [colorValue getValue:&c];
+            
+            if (!width) width = [NSNumber numberWithInt:0];
+            
+            serializedValue = [NSArray arrayWithObjects:
+                               width,
+                               [NSNumber numberWithInt:c.r],
+                               [NSNumber numberWithInt:c.g],
+                               [NSNumber numberWithInt:c.b],
+                               [NSNumber numberWithInt:c.a],nil];
+        }
+        else if ([type isEqualToString:@"Shadow"]) {
+            NSNumber *offsetX = [node valueForKey:[NSString stringWithFormat:@"%@X", name]];
+            NSNumber *offsetY = [node valueForKey:[NSString stringWithFormat:@"%@Y", name]];
+            NSNumber *radius = [node valueForKey:[NSString stringWithFormat:@"%@Radius", name]];
+            NSValue* colorValue = [node valueForKey:[NSString stringWithFormat:@"%@Color", name]];
+            ccColor4B c;
+            [colorValue getValue:&c];
+            
+            if (!offsetY) offsetX = [NSNumber numberWithInt:0];
+            if (!offsetY) offsetY = [NSNumber numberWithInt:0];
+            if (!radius) radius = [NSNumber numberWithInt:0];
+            
+            serializedValue = [NSArray arrayWithObjects:
+                               offsetX,
+                               offsetY,
+                               radius,
+                               [NSNumber numberWithInt:c.r],
+                               [NSNumber numberWithInt:c.g],
+                               [NSNumber numberWithInt:c.b],
+                               [NSNumber numberWithInt:c.a], nil];
+        }
         else
         {
             NSLog(@"WARNING Unrecognized property type: %@", type);

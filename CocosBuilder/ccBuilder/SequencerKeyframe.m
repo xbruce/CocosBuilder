@@ -35,6 +35,7 @@
 @synthesize time;
 @synthesize timeAtDragStart;
 @synthesize selected;
+@synthesize repeatForver;
 
 @synthesize parent;
 @synthesize easing;
@@ -58,6 +59,7 @@
     self.type = [[ser valueForKey:@"type"] intValue];
     self.name = [ser valueForKey:@"name"];
     self.time = [[ser valueForKey:@"time"] floatValue];
+    self.repeatForver = [[ser valueForKey:@"repeat"] boolValue];
     self.easing = [[[SequencerKeyframeEasing alloc] initWithSerialization:[ser objectForKey:@"easing"]] autorelease];
     // fix possible broken easing/type combinations
     if (![self supportsFiniteTimeInterpolations]) {
@@ -69,13 +71,14 @@
 
 - (id) serialization
 {
-    NSMutableDictionary* ser = [NSMutableDictionary dictionaryWithCapacity:4];
+    NSMutableDictionary* ser = [NSMutableDictionary dictionaryWithCapacity:6];
     
     [ser setValue:value forKey:@"value"];
     [ser setValue:[NSNumber numberWithInt:type] forKey:@"type"];
     [ser setValue:name forKey:@"name"];
     [ser setValue:[NSNumber numberWithFloat:time] forKey:@"time"];
     [ser setValue:[easing serialization] forKey:@"easing"];
+    [ser setValue:[NSNumber numberWithBool:repeatForver] forKey:@"repeat"];
     
     return ser;
 }

@@ -2091,7 +2091,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{255, 184}, {1150, 700}}</string>
+				<string key="NSWindowRect">{{255, 184}, {1159, 700}}</string>
 				<int key="NSWTFlags">1685585920</int>
 				<string key="NSWindowTitle">CocosBuilder</string>
 				<string key="NSWindowClass">MainWindow</string>
@@ -2304,7 +2304,7 @@
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMinSize">{800, 300}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2318,6 +2318,7 @@
 									<int key="NSvFlags">36</int>
 									<string key="NSFrame">{{27, 0}, {5, 15}}</string>
 									<reference key="NSSuperview" ref="109787956"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="913818403"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSOffsets">{0, 0}</string>
@@ -2350,6 +2351,7 @@
 									<int key="NSvFlags">292</int>
 									<string key="NSFrame">{{0, 1}, {26, 15}}</string>
 									<reference key="NSSuperview" ref="109787956"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="321442560"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<bool key="NSEnabled">YES</bool>
@@ -2425,6 +2427,7 @@
 									<int key="NSvFlags">34</int>
 									<string key="NSFrame">{{0, 13}, {250, 5}}</string>
 									<reference key="NSSuperview" ref="109787956"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="631490047"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<string key="NSOffsets">{0, 0}</string>
@@ -2449,6 +2452,7 @@
 									<int key="NSvFlags">20</int>
 									<string key="NSFrame">{{247, 0}, {5, 678}}</string>
 									<reference key="NSSuperview" ref="109787956"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="937207363"/>
 									<string key="NSOffsets">{0, 0}</string>
 									<object class="NSTextFieldCell" key="NSTitleCell">
@@ -2472,6 +2476,7 @@
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{3, 664}, {250, 14}}</string>
 									<reference key="NSSuperview" ref="109787956"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="15476149"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSTextFieldCell" key="NSCell" id="514615090">
@@ -2523,6 +2528,7 @@
 									</object>
 									<string key="NSFrame">{{0, 664}, {250, 15}}</string>
 									<reference key="NSSuperview" ref="109787956"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="93213126"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSImageCell" key="NSCell" id="54245052">
@@ -2558,7 +2564,8 @@
 													</object>
 													<string key="NSFrameSize">{250, 648}</string>
 													<reference key="NSSuperview" ref="88756307"/>
-													<reference key="NSNextKeyView" ref="987023980"/>
+													<reference key="NSWindow"/>
+													<reference key="NSNextKeyView" ref="1032953836"/>
 													<bool key="NSEnabled">YES</bool>
 													<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 													<bool key="NSControlAllowsExpansionToolTips">YES</bool>
@@ -2630,6 +2637,7 @@
 											</object>
 											<string key="NSFrameSize">{250, 648}</string>
 											<reference key="NSSuperview" ref="15476149"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="719729659"/>
 											<reference key="NSDocView" ref="719729659"/>
 											<reference key="NSBGColor" ref="206630291"/>
@@ -2640,6 +2648,7 @@
 											<int key="NSvFlags">-2147483392</int>
 											<string key="NSFrame">{{339, 17}, {11, 213}}</string>
 											<reference key="NSSuperview" ref="15476149"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="444616467"/>
 											<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 											<int key="NSsFlags">256</int>
@@ -2652,6 +2661,7 @@
 											<int key="NSvFlags">-2147483392</int>
 											<string key="NSFrame">{{-100, -100}, {353, 11}}</string>
 											<reference key="NSSuperview" ref="15476149"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="88756307"/>
 											<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 											<int key="NSsFlags">257</int>
@@ -2662,7 +2672,8 @@
 									</object>
 									<string key="NSFrame">{{0, 16}, {250, 648}}</string>
 									<reference key="NSSuperview" ref="109787956"/>
-									<reference key="NSNextKeyView" ref="88756307"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="987023980"/>
 									<int key="NSsFlags">133648</int>
 									<reference key="NSVScroller" ref="1032953836"/>
 									<reference key="NSHScroller" ref="987023980"/>
@@ -2675,6 +2686,7 @@
 							</object>
 							<string key="NSFrameSize">{250, 678}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="919059098"/>
 							<string key="NSClassName">NSView</string>
 						</object>
@@ -2693,6 +2705,7 @@
 											<int key="NSvFlags">1298</int>
 											<string key="NSFrameSize">{601, 549}</string>
 											<reference key="NSSuperview" ref="581098738"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="1040455681"/>
 											<object class="NSOpenGLPixelFormat" key="NSPixelFormat">
 												<object class="NSMutableData" key="NSPixelAttributes">
@@ -2703,6 +2716,7 @@
 									</object>
 									<string key="NSFrameSize">{601, 549}</string>
 									<reference key="NSSuperview" ref="937207363"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="1039955690"/>
 									<string key="NSClassName">NSView</string>
 								</object>
@@ -2721,11 +2735,13 @@
 													<int key="NSvFlags">274</int>
 													<string key="NSFrame">{{1, 1}, {599, 0}}</string>
 													<reference key="NSSuperview" ref="508341981"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="933610464"/>
 												</object>
 											</object>
 											<string key="NSFrame">{{0, 82}, {601, 1}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="166691145"/>
 											<string key="NSOffsets">{0, 0}</string>
 											<object class="NSTextFieldCell" key="NSTitleCell">
@@ -2759,11 +2775,13 @@
 													<int key="NSvFlags">274</int>
 													<string key="NSFrame">{{1, 1}, {0, 64}}</string>
 													<reference key="NSSuperview" ref="605516856"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="808054622"/>
 												</object>
 											</object>
 											<string key="NSFrame">{{234, 16}, {1, 66}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="230147697"/>
 											<string key="NSOffsets">{0, 0}</string>
 											<object class="NSTextFieldCell" key="NSTitleCell">
@@ -2797,11 +2815,13 @@
 													<int key="NSvFlags">274</int>
 													<string key="NSFrame">{{1, 1}, {0, 96}}</string>
 													<reference key="NSSuperview" ref="638332341"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="329387741"/>
 												</object>
 											</object>
 											<string key="NSFrame">{{250, 0}, {1, 98}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="630442462"/>
 											<string key="NSOffsets">{0, 0}</string>
 											<object class="NSTextFieldCell" key="NSTitleCell">
@@ -2835,11 +2855,13 @@
 													<int key="NSvFlags">274</int>
 													<string key="NSFrame">{{1, 1}, {599, 0}}</string>
 													<reference key="NSSuperview" ref="15312564"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="21043842"/>
 												</object>
 											</object>
 											<string key="NSFrame">{{0, 15}, {601, 1}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="424740353"/>
 											<string key="NSOffsets">{0, 0}</string>
 											<object class="NSTextFieldCell" key="NSTitleCell">
@@ -2868,6 +2890,7 @@
 											<int key="NSvFlags">274</int>
 											<string key="NSFrame">{{250, 15}, {351, 83}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="286030503"/>
 											<string key="NSClassName">SequencerScrubberSelectionView</string>
 										</object>
@@ -2876,6 +2899,7 @@
 											<int key="NSvFlags">266</int>
 											<string key="NSFrame">{{250, 83}, {351, 14}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="15312564"/>
 											<string key="NSClassName">SequencerTimelineView</string>
 										</object>
@@ -2884,6 +2908,7 @@
 											<int key="NSvFlags">290</int>
 											<string key="NSFrame">{{250, 0}, {351, 16}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="826880190"/>
 											<string key="NSClassName">NSScroller</string>
 										</object>
@@ -2892,6 +2917,7 @@
 											<int key="NSvFlags">265</int>
 											<string key="NSFrame">{{394, 109}, {101, 12}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="866197916"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSSliderCell" key="NSCell" id="978163075">
@@ -2927,6 +2953,7 @@
 											</object>
 											<string key="NSFrame">{{386, 96}, {117, 31}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="823357712"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSImageCell" key="NSCell" id="509078714">
@@ -2949,6 +2976,7 @@
 											<int key="NSvFlags">265</int>
 											<string key="NSFrame">{{508, 96}, {88, 31}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="689649692"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<bool key="NSEnabled">YES</bool>
@@ -2973,6 +3001,7 @@
 											<int key="NSvFlags">265</int>
 											<string key="NSFrame">{{507, 106}, {90, 17}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="328205233"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="88663603">
@@ -3008,6 +3037,7 @@
 											</object>
 											<string key="NSFrame">{{510, 100}, {84, 24}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="308950031"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSImageCell" key="NSCell" id="476060479">
@@ -3030,6 +3060,7 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{174, 100}, {32, 25}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="535044269"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSSegmentedCell" key="NSCell" id="783866138">
@@ -3060,6 +3091,7 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{9, 100}, {156, 25}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="481429480"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSSegmentedCell" key="NSCell" id="444880040">
@@ -3137,6 +3169,7 @@
 															<int key="NSvFlags">256</int>
 															<string key="NSFrameSize">{601, 66}</string>
 															<reference key="NSSuperview" ref="546394189"/>
+															<reference key="NSWindow"/>
 															<reference key="NSNextKeyView" ref="464295315"/>
 															<bool key="NSEnabled">YES</bool>
 															<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -3264,6 +3297,7 @@
 													</object>
 													<string key="NSFrameSize">{601, 66}</string>
 													<reference key="NSSuperview" ref="933610464"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="205905132"/>
 													<reference key="NSDocView" ref="205905132"/>
 													<reference key="NSBGColor" ref="852255654"/>
@@ -3274,6 +3308,7 @@
 													<int key="NSvFlags">-2147483392</int>
 													<string key="NSFrame">{{490, 0}, {11, 26}}</string>
 													<reference key="NSSuperview" ref="933610464"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="735406840"/>
 													<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 													<int key="NSsFlags">256</int>
@@ -3286,6 +3321,7 @@
 													<int key="NSvFlags">-2147483392</int>
 													<string key="NSFrame">{{0, 26}, {501, 11}}</string>
 													<reference key="NSSuperview" ref="933610464"/>
+													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="605516856"/>
 													<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 													<int key="NSsFlags">257</int>
@@ -3296,6 +3332,7 @@
 											</object>
 											<string key="NSFrame">{{0, 16}, {601, 66}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="546394189"/>
 											<int key="NSsFlags">133680</int>
 											<reference key="NSVScroller" ref="464295315"/>
@@ -3311,6 +3348,7 @@
 											<int key="NSvFlags">292</int>
 											<string key="NSFrame">{{-3, 0}, {256, 15}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="146236584"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSPopUpButtonCell" key="NSCell" id="284949093">
@@ -3371,6 +3409,7 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{-3, 83}, {256, 15}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="888137511"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSPopUpButtonCell" key="NSCell" id="139561489">
@@ -3522,6 +3561,7 @@
 											</object>
 											<string key="NSFrame">{{4, 3}, {8, 9}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="915023943"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSImageCell" key="NSCell" id="592464072">
@@ -3556,6 +3596,7 @@
 											</object>
 											<string key="NSFrame">{{230, 3}, {16, 9}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="638332341"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSImageCell" key="NSCell" id="706232795">
@@ -3590,6 +3631,7 @@
 											</object>
 											<string key="NSFrame">{{230, 85}, {16, 9}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="508341981"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSImageCell" key="NSCell" id="215944419">
@@ -3609,6 +3651,7 @@
 											<int key="NSvFlags">292</int>
 											<string key="NSFrame">{{15, 1}, {210, 14}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="151390389"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="766914900">
@@ -3628,6 +3671,7 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{5, 83}, {220, 14}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="307606666"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="479950179">
@@ -3659,6 +3703,7 @@
 											</object>
 											<string key="NSFrame">{{0, 97}, {601, 32}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="824095981"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSImageCell" key="NSCell" id="620303949">
@@ -3693,6 +3738,7 @@
 											</object>
 											<string key="NSFrame">{{0, 82}, {250, 16}}</string>
 											<reference key="NSSuperview" ref="1040455681"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="43886412"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSImageCell" key="NSCell" id="573703298">
@@ -3710,12 +3756,14 @@
 									</object>
 									<string key="NSFrame">{{0, 550}, {601, 128}}</string>
 									<reference key="NSSuperview" ref="937207363"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="536260150"/>
 									<string key="NSClassName">NSView</string>
 								</object>
 							</object>
 							<string key="NSFrame">{{250, 0}, {601, 678}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="581098738"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
 							<int key="NSDividerStyle">2</int>
@@ -3730,6 +3778,7 @@
 									<int key="NSvFlags">20</int>
 									<string key="NSFrame">{{-2, 0}, {5, 680}}</string>
 									<reference key="NSSuperview" ref="826880190"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="949082143"/>
 									<string key="NSOffsets">{0, 0}</string>
 									<object class="NSTextFieldCell" key="NSTitleCell">
@@ -3763,11 +3812,13 @@
 													<int key="NSvFlags">268</int>
 													<string key="NSFrameSize">{233, 550}</string>
 													<reference key="NSSuperview" ref="650525934"/>
-													<reference key="NSNextKeyView" ref="885143300"/>
+													<reference key="NSWindow"/>
+													<reference key="NSNextKeyView" ref="677469954"/>
 												</object>
 											</object>
 											<string key="NSFrame">{{1, 1}, {298, 678}}</string>
 											<reference key="NSSuperview" ref="949082143"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="81128409"/>
 											<reference key="NSDocView" ref="81128409"/>
 											<reference key="NSBGColor" ref="206630291"/>
@@ -3778,6 +3829,8 @@
 											<int key="NSvFlags">-2147483392</int>
 											<string key="NSFrame">{{284, 1}, {15, 678}}</string>
 											<reference key="NSSuperview" ref="949082143"/>
+											<reference key="NSWindow"/>
+											<reference key="NSNextKeyView"/>
 											<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 											<reference key="NSTarget" ref="949082143"/>
 											<string key="NSAction">_doScroller:</string>
@@ -3788,6 +3841,7 @@
 											<int key="NSvFlags">-2147483392</int>
 											<string key="NSFrame">{{-100, -100}, {183, 15}}</string>
 											<reference key="NSSuperview" ref="949082143"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="650525934"/>
 											<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 											<int key="NSsFlags">1</int>
@@ -3798,7 +3852,8 @@
 									</object>
 									<string key="NSFrameSize">{300, 680}</string>
 									<reference key="NSSuperview" ref="826880190"/>
-									<reference key="NSNextKeyView" ref="650525934"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="885143300"/>
 									<int key="NSsFlags">133650</int>
 									<reference key="NSVScroller" ref="677469954"/>
 									<reference key="NSHScroller" ref="885143300"/>
@@ -3810,6 +3865,7 @@
 							</object>
 							<string key="NSFrame">{{851, 0}, {301, 680}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="601619470"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">NSView</string>
@@ -3819,11 +3875,14 @@
 							<int key="NSvFlags">266</int>
 							<string key="NSFrame">{{0, 678}, {1151, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="109787956"/>
 							<string key="NSClassName">PSMTabBarControl</string>
 						</object>
 					</object>
-					<string key="NSFrameSize">{1150, 700}</string>
+					<string key="NSFrameSize">{1159, 700}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="1038619197"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
@@ -4064,6 +4123,34 @@
 					<object class="NSMenuItem" id="204804345">
 						<reference key="NSMenu" ref="177767094"/>
 						<string key="NSTitle">Easing Setting...</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="502551668"/>
+						<int key="NSTag">-1</int>
+					</object>
+					<object class="NSMenuItem" id="1060026789">
+						<reference key="NSMenu" ref="177767094"/>
+						<bool key="NSIsDisabled">YES</bool>
+						<bool key="NSIsSeparator">YES</bool>
+						<string key="NSTitle"/>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="502551668"/>
+					</object>
+					<object class="NSMenuItem" id="500631327">
+						<reference key="NSMenu" ref="177767094"/>
+						<string key="NSTitle">Set RepeatForver</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="502551668"/>
+						<int key="NSTag">-1</int>
+					</object>
+					<object class="NSMenuItem" id="125044161">
+						<reference key="NSMenu" ref="177767094"/>
+						<string key="NSTitle">Remove RepeatForver</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="35465992"/>
@@ -5670,6 +5757,22 @@
 						<reference key="destination" ref="1062144046"/>
 					</object>
 					<int key="connectionID">1951</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">menuSetActionRepeatForver:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="500631327"/>
+					</object>
+					<int key="connectionID">1963</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">menuRemoveActionRepeatForever:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="125044161"/>
+					</object>
+					<int key="connectionID">1966</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -8163,6 +8266,9 @@
 							<reference ref="877323784"/>
 							<reference ref="97243515"/>
 							<reference ref="135372285"/>
+							<reference ref="1060026789"/>
+							<reference ref="500631327"/>
+							<reference ref="125044161"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -9091,6 +9197,21 @@
 						<reference key="object" ref="466117619"/>
 						<reference key="parent" ref="720053764"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1960</int>
+						<reference key="object" ref="1060026789"/>
+						<reference key="parent" ref="177767094"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1961</int>
+						<reference key="object" ref="500631327"/>
+						<reference key="parent" ref="177767094"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1964</int>
+						<reference key="object" ref="125044161"/>
+						<reference key="parent" ref="177767094"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -9404,6 +9525,9 @@
 					<string>195.IBPluginDependency</string>
 					<string>1956.IBPluginDependency</string>
 					<string>196.IBPluginDependency</string>
+					<string>1960.IBPluginDependency</string>
+					<string>1961.IBPluginDependency</string>
+					<string>1964.IBPluginDependency</string>
 					<string>197.IBPluginDependency</string>
 					<string>199.IBPluginDependency</string>
 					<string>200.IBPluginDependency</string>
@@ -9837,6 +9961,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<boolean value="NO"/>
 					<boolean value="NO"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -9900,7 +10027,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">1959</int>
+			<int key="maxID">1966</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -10008,9 +10135,12 @@
 							<string>debug:</string>
 							<string>delete:</string>
 							<string>menuAbout:</string>
+							<string>menuAddKeyframe:</string>
 							<string>menuAddStickyNote:</string>
+							<string>menuAlignKeyframeToMarker:</string>
 							<string>menuAlignObjects:</string>
 							<string>menuAlignToPixels:</string>
+							<string>menuArrange:</string>
 							<string>menuCleanCacheDirectories:</string>
 							<string>menuCloseProject:</string>
 							<string>menuCreateKeyframesFromSelection:</string>
@@ -10019,22 +10149,31 @@
 							<string>menuEditCustomPropSettings:</string>
 							<string>menuEditResolutionSettings:</string>
 							<string>menuEditSmartSpriteSheet:</string>
+							<string>menuJavaScriptControlled:</string>
 							<string>menuMoveObject:</string>
 							<string>menuNewProject:</string>
 							<string>menuNudgeObject:</string>
 							<string>menuOpenExternal:</string>
 							<string>menuOpenResourceManager:</string>
 							<string>menuProjectSettings:</string>
+							<string>menuPublishProject:</string>
 							<string>menuPublishProjectAndRun:</string>
 							<string>menuPublishProjectAndRunInBrowser:</string>
 							<string>menuPublishProjectWithCommand:</string>
 							<string>menuPublishSettings:</string>
 							<string>menuQuit:</string>
+							<string>menuRemoveActionRepeatForever:</string>
+							<string>menuResetView:</string>
+							<string>menuResolution:</string>
+							<string>menuReverseSelectedKeyframes:</string>
 							<string>menuSelectBehind:</string>
+							<string>menuSetActionRepeatForver:</string>
 							<string>menuSetCanvasBorder:</string>
+							<string>menuSetEasing:</string>
 							<string>menuSetEasingOption:</string>
 							<string>menuSetStateOriginCentered:</string>
 							<string>menuStretchSelectedKeyframes:</string>
+							<string>menuTimelineDuplicate:</string>
 							<string>menuTimelineDuration:</string>
 							<string>menuTimelineNew:</string>
 							<string>menuTimelineSettings:</string>
@@ -10043,11 +10182,14 @@
 							<string>menuZoomOut:</string>
 							<string>newDocument:</string>
 							<string>newJSDocument:</string>
+							<string>openCocosPlayerConsole:</string>
+							<string>openDocument:</string>
 							<string>paste:</string>
 							<string>pasteAsChild:</string>
 							<string>performClose:</string>
 							<string>playbackJumpToStart:</string>
 							<string>playbackPlay:</string>
+							<string>playbackStepBack:</string>
 							<string>playbackStepForward:</string>
 							<string>playbackStop:</string>
 							<string>pressedPanelVisibility:</string>
@@ -10055,13 +10197,38 @@
 							<string>pressedToolSelection:</string>
 							<string>pressedZoom:</string>
 							<string>redo:</string>
+							<string>reportBug:</string>
 							<string>runProject:</string>
 							<string>saveAllDocuments:</string>
 							<string>saveDocument:</string>
+							<string>saveDocumentAs:</string>
+							<string>showAPIDocs:</string>
+							<string>showHelp:</string>
 							<string>undo:</string>
+							<string>visitCommunity:</string>
 						</object>
 						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -10129,9 +10296,12 @@
 							<string>debug:</string>
 							<string>delete:</string>
 							<string>menuAbout:</string>
+							<string>menuAddKeyframe:</string>
 							<string>menuAddStickyNote:</string>
+							<string>menuAlignKeyframeToMarker:</string>
 							<string>menuAlignObjects:</string>
 							<string>menuAlignToPixels:</string>
+							<string>menuArrange:</string>
 							<string>menuCleanCacheDirectories:</string>
 							<string>menuCloseProject:</string>
 							<string>menuCreateKeyframesFromSelection:</string>
@@ -10140,22 +10310,31 @@
 							<string>menuEditCustomPropSettings:</string>
 							<string>menuEditResolutionSettings:</string>
 							<string>menuEditSmartSpriteSheet:</string>
+							<string>menuJavaScriptControlled:</string>
 							<string>menuMoveObject:</string>
 							<string>menuNewProject:</string>
 							<string>menuNudgeObject:</string>
 							<string>menuOpenExternal:</string>
 							<string>menuOpenResourceManager:</string>
 							<string>menuProjectSettings:</string>
+							<string>menuPublishProject:</string>
 							<string>menuPublishProjectAndRun:</string>
 							<string>menuPublishProjectAndRunInBrowser:</string>
 							<string>menuPublishProjectWithCommand:</string>
 							<string>menuPublishSettings:</string>
 							<string>menuQuit:</string>
+							<string>menuRemoveActionRepeatForever:</string>
+							<string>menuResetView:</string>
+							<string>menuResolution:</string>
+							<string>menuReverseSelectedKeyframes:</string>
 							<string>menuSelectBehind:</string>
+							<string>menuSetActionRepeatForver:</string>
 							<string>menuSetCanvasBorder:</string>
+							<string>menuSetEasing:</string>
 							<string>menuSetEasingOption:</string>
 							<string>menuSetStateOriginCentered:</string>
 							<string>menuStretchSelectedKeyframes:</string>
+							<string>menuTimelineDuplicate:</string>
 							<string>menuTimelineDuration:</string>
 							<string>menuTimelineNew:</string>
 							<string>menuTimelineSettings:</string>
@@ -10164,11 +10343,14 @@
 							<string>menuZoomOut:</string>
 							<string>newDocument:</string>
 							<string>newJSDocument:</string>
+							<string>openCocosPlayerConsole:</string>
+							<string>openDocument:</string>
 							<string>paste:</string>
 							<string>pasteAsChild:</string>
 							<string>performClose:</string>
 							<string>playbackJumpToStart:</string>
 							<string>playbackPlay:</string>
+							<string>playbackStepBack:</string>
 							<string>playbackStepForward:</string>
 							<string>playbackStop:</string>
 							<string>pressedPanelVisibility:</string>
@@ -10176,10 +10358,15 @@
 							<string>pressedToolSelection:</string>
 							<string>pressedZoom:</string>
 							<string>redo:</string>
+							<string>reportBug:</string>
 							<string>runProject:</string>
 							<string>saveAllDocuments:</string>
 							<string>saveDocument:</string>
+							<string>saveDocumentAs:</string>
+							<string>showAPIDocs:</string>
+							<string>showHelp:</string>
 							<string>undo:</string>
+							<string>visitCommunity:</string>
 						</object>
 						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -10204,7 +10391,15 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">menuAddKeyframe:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">menuAddStickyNote:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuAlignKeyframeToMarker:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -10213,6 +10408,10 @@
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">menuAlignToPixels:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuArrange:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -10248,6 +10447,10 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">menuJavaScriptControlled:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">menuMoveObject:</string>
 								<string key="candidateClassName">id</string>
 							</object>
@@ -10272,6 +10475,10 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">menuPublishProject:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">menuPublishProjectAndRun:</string>
 								<string key="candidateClassName">id</string>
 							</object>
@@ -10292,11 +10499,35 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">menuRemoveActionRepeatForever:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuResetView:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuResolution:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuReverseSelectedKeyframes:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">menuSelectBehind:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">menuSetActionRepeatForver:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">menuSetCanvasBorder:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuSetEasing:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -10309,6 +10540,10 @@
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">menuStretchSelectedKeyframes:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">menuTimelineDuplicate:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -10344,6 +10579,14 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">openCocosPlayerConsole:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">openDocument:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">paste:</string>
 								<string key="candidateClassName">id</string>
 							</object>
@@ -10361,6 +10604,10 @@
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">playbackPlay:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">playbackStepBack:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -10392,6 +10639,10 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">reportBug:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">runProject:</string>
 								<string key="candidateClassName">id</string>
 							</object>
@@ -10404,7 +10655,23 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">saveDocumentAs:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">showAPIDocs:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">showHelp:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">undo:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">visitCommunity:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>

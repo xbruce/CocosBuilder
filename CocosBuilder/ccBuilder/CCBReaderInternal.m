@@ -304,6 +304,59 @@ NSDictionary* renamedProperties = NULL;
         [NodeGraphPropertySetter setNodeGraphForNode:node andProperty:name withFile:ccbFile parentSize:parentSize];
         [extraProps setObject:ccbFile forKey:name];
     }
+    else if ([type isEqualToString:@"Stroke"]) {
+        NSNumber *width = [serializedValue objectAtIndex:0];
+        NSNumber *r = [serializedValue objectAtIndex:1];
+        NSNumber *g = [serializedValue objectAtIndex:2];
+        NSNumber *b = [serializedValue objectAtIndex:3];
+        NSNumber *a = [serializedValue objectAtIndex:4];
+        
+        if (!width) width = [NSNumber numberWithInt:0];
+        if (!r) r = [NSNumber numberWithInt:0];
+        if (!g) g = [NSNumber numberWithInt:0];
+        if (!b) b = [NSNumber numberWithInt:0];
+        if (!a) a = [NSNumber numberWithInt:0];
+        
+        [node setValue:width forKey:[NSString stringWithFormat:@"%@Width", name]];
+        
+        ccColor4B c;
+        c.r = [r floatValue];
+        c.g = [g floatValue];
+        c.b = [b floatValue];
+        c.a = [a floatValue];
+        NSValue* colorValue = [NSValue value:&c withObjCType:@encode(ccColor4B)];
+        [node setValue:colorValue forKey:[NSString stringWithFormat:@"%@Color", name]];
+    }
+    else if ([type isEqualToString:@"Shadow"]) {
+        NSNumber *offsetX = [serializedValue objectAtIndex:0];
+        NSNumber *offsetY = [serializedValue objectAtIndex:1];
+        NSNumber *radius = [serializedValue objectAtIndex:2];
+        NSNumber *r = [serializedValue objectAtIndex:3];
+        NSNumber *g = [serializedValue objectAtIndex:4];
+        NSNumber *b = [serializedValue objectAtIndex:5];
+        NSNumber *a = [serializedValue objectAtIndex:6];
+        
+        if (!offsetY) offsetY = [NSNumber numberWithInt:0];
+        if (!offsetX) offsetX = [NSNumber numberWithInt:0];
+        if (!radius) radius = [NSNumber numberWithInt:0];
+        if (!r) r = [NSNumber numberWithInt:0];
+        if (!g) g = [NSNumber numberWithInt:0];
+        if (!b) b = [NSNumber numberWithInt:0];
+        if (!a) a = [NSNumber numberWithInt:0];
+        
+        [node setValue:offsetX forKey:[NSString stringWithFormat:@"%@X", name]];
+        [node setValue:offsetY forKey:[NSString stringWithFormat:@"%@Y", name]];
+        [node setValue:radius forKey:[NSString stringWithFormat:@"%@Radius", name]];
+        [node setValue:radius forKey:[NSString stringWithFormat:@"%@Radius", name]];
+        
+        ccColor4B c;
+        c.r = [r floatValue];
+        c.g = [g floatValue];
+        c.b = [b floatValue];
+        c.a = [a floatValue];
+        NSValue* colorValue = [NSValue value:&c withObjCType:@encode(ccColor4B)];
+        [node setValue:colorValue forKey:[NSString stringWithFormat:@"%@Color", name]];
+    }
     else
     {
         NSLog(@"WARNING Unrecognized property type: %@", type);

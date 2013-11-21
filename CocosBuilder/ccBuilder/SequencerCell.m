@@ -126,22 +126,42 @@
             {
                 if (keyframe.selected)
                 {
-                    img = imgKeyframeLSel;
+                    if (keyframe.repeatForver) {
+                        img = imgKeyframeLSel2;
+                    }
+                    else {
+                        img = imgKeyframeLSel;
+                    }
                 }
                 else
                 {
-                    img = imgKeyframeL;
+                    if (keyframe.repeatForver) {
+                        img = imgKeyframeL2;
+                    }
+                    else {
+                        img = imgKeyframeL;
+                    }
                 }
             }
             else
             {
                 if (keyframe.selected)
                 {
-                    img = imgKeyframeRSel;
+                    if (keyframe.repeatForver) {
+                        img = imgKeyframeRSel2;
+                    }
+                    else {
+                        img = imgKeyframeRSel;
+                    }
                 }
                 else
                 {
-                    img = imgKeyframeR;
+                    if (keyframe.repeatForver) {
+                        img = imgKeyframeR2;
+                    }
+                    else {
+                        img = imgKeyframeR;
+                    }
                 }
             }
             
@@ -263,11 +283,21 @@
             NSImage* img = NULL;
             if ([self shouldDrawSelectedKeyframe:keyframe forNodeProp:nodeProp])
             {
-                img = imgKeyframeSel;
+                if (keyframe.repeatForver) {
+                    img = imgKeyframeSel2;
+                }
+                else {
+                    img = imgKeyframeSel;
+                }
             }
             else
             {
-                img = imgKeyframe;
+                if (keyframe.repeatForver) {
+                    img = imgKeyframe2;
+                }
+                else {
+                    img = imgKeyframe;
+                }
             }
             
             if (isChannel)
@@ -336,6 +366,12 @@
         imgKeyframeSel = [[NSImage imageNamed:@"seq-keyframe-sel.png"] retain];
         [imgKeyframeSel setFlipped:YES];
         
+        imgKeyframe2 = [[NSImage imageNamed:@"seq-keyframe2.png"] retain];
+        [imgKeyframe2 setFlipped:YES];
+        
+        imgKeyframeSel2 = [[NSImage imageNamed:@"seq-keyframe-sel2.png"] retain];
+        [imgKeyframeSel2 setFlipped:YES];
+        
         imgRowBg0 = [[NSImage imageNamed:@"seq-row-0-bg.png"] retain];
         [imgRowBg0 setFlipped:YES];
         
@@ -374,6 +410,19 @@
         
         imgKeyframeHint = [[NSImage imageNamed:@"seq-keyframe-hint.png"] retain];
         [imgKeyframeHint setFlipped:YES];
+        
+        
+        imgKeyframeL2 = [[NSImage imageNamed:@"seq-keyframe-l2.png"] retain];
+        [imgKeyframeL2 setFlipped:YES];
+        
+        imgKeyframeR2 = [[NSImage imageNamed:@"seq-keyframe-r2.png"] retain];
+        [imgKeyframeR2 setFlipped:YES];
+        
+        imgKeyframeLSel2 = [[NSImage imageNamed:@"seq-keyframe-l-sel2.png"] retain];
+        [imgKeyframeLSel2 setFlipped:YES];
+        
+        imgKeyframeRSel2 = [[NSImage imageNamed:@"seq-keyframe-r-sel2.png"] retain];
+        [imgKeyframeRSel2 setFlipped:YES];
     }
     
     if (node)

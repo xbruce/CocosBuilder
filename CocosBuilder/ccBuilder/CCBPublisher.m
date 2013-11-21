@@ -795,18 +795,18 @@
         [[NSFileManager defaultManager] copyItemAtPath: cocos2dlibFileSrc toPath:cocos2dlibFile error:NULL];
     }
     
-    // Generate file lookup
-    NSMutableDictionary* fileLookup = [NSMutableDictionary dictionary];
-    
-    NSMutableDictionary* metadata = [NSMutableDictionary dictionary];
-    [metadata setObject:[NSNumber numberWithInt:1] forKey:@"version"];
-    
-    [fileLookup setObject:metadata forKey:@"metadata"];
-    [fileLookup setObject:renamedFiles forKey:@"filenames"];
-    
-    NSString* lookupFile = [outputDir stringByAppendingPathComponent:@"fileLookup.plist"];
-    
-    [fileLookup writeToFile:lookupFile atomically:YES];
+//    // Generate file lookup
+//    NSMutableDictionary* fileLookup = [NSMutableDictionary dictionary];
+//    
+//    NSMutableDictionary* metadata = [NSMutableDictionary dictionary];
+//    [metadata setObject:[NSNumber numberWithInt:1] forKey:@"version"];
+//    
+//    [fileLookup setObject:metadata forKey:@"metadata"];
+//    [fileLookup setObject:renamedFiles forKey:@"filenames"];
+//    
+//    NSString* lookupFile = [outputDir stringByAppendingPathComponent:@"fileLookup.plist"];
+//    
+//    [fileLookup writeToFile:lookupFile atomically:YES];
 }
 
 - (BOOL) publishAllToDirectory:(NSString*)dir
@@ -830,7 +830,7 @@
     }
     
     // Publish generated files
-    [self publishGeneratedFiles];
+//    [self publishGeneratedFiles];
     
     // Yiee Haa!
     return YES;
@@ -894,20 +894,20 @@
 - (BOOL) publish_
 {
     // Remove all old publish directories if user has cleaned the cache
-    if (projectSettings.needRepublish)
-    {
-        NSFileManager *fm = [NSFileManager defaultManager];
-        NSString* publishDir;
-        
-        publishDir = [projectSettings.publishDirectory absolutePathFromBaseDirPath:[projectSettings.projectPath stringByDeletingLastPathComponent]];
-        [fm removeItemAtPath:publishDir error:NULL];
-        
-        publishDir = [projectSettings.publishDirectoryAndroid absolutePathFromBaseDirPath:[projectSettings.projectPath stringByDeletingLastPathComponent]];
-        [fm removeItemAtPath:publishDir error:NULL];
-        
-        publishDir = [projectSettings.publishDirectoryHTML5 absolutePathFromBaseDirPath:[projectSettings.projectPath stringByDeletingLastPathComponent]];
-        [fm removeItemAtPath:publishDir error:NULL];
-    }
+//    if (projectSettings.needRepublish)
+//    {
+//        NSFileManager *fm = [NSFileManager defaultManager];
+//        NSString* publishDir;
+//        
+//        publishDir = [projectSettings.publishDirectory absolutePathFromBaseDirPath:[projectSettings.projectPath stringByDeletingLastPathComponent]];
+//        [fm removeItemAtPath:publishDir error:NULL];
+//        
+//        publishDir = [projectSettings.publishDirectoryAndroid absolutePathFromBaseDirPath:[projectSettings.projectPath stringByDeletingLastPathComponent]];
+//        [fm removeItemAtPath:publishDir error:NULL];
+//        
+//        publishDir = [projectSettings.publishDirectoryHTML5 absolutePathFromBaseDirPath:[projectSettings.projectPath stringByDeletingLastPathComponent]];
+//        [fm removeItemAtPath:publishDir error:NULL];
+//    }
     
     if (!runAfterPublishing)
     {

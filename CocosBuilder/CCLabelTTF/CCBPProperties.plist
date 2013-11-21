@@ -143,6 +143,22 @@
 			<key>name</key>
 			<string>string</string>
 		</dict>
+		<dict>
+			<key>type</key>
+			<string>Shadow</string>
+			<key>displayName</key>
+			<string>Label Shadow</string>
+			<key>name</key>
+			<string>shadow</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>Stroke</string>
+			<key>displayName</key>
+			<string>Label Stroke</string>
+			<key>name</key>
+			<string>stroke</string>
+		</dict>
 	</array>
 </dict>
 </plist>

@@ -7,6 +7,7 @@
 //
 
 #import "JsonCCBXCocos2diPhoneWriter.h"
+#import "JSONKit.h"
 
 @implementation JsonCCBXCocos2diPhoneWriter
 
@@ -29,16 +30,11 @@
 
 
 - (void) writeDocument:(NSDictionary *)doc {
-    NSDictionary *nodeGraph = [doc objectForKey:@"nodeGraph"];
+    NSMutableDictionary *pNodeGraph = [doc objectForKey:@"nodeGraph"];
+    [pNodeGraph setObject:[doc objectForKey:@"sequences"] forKey:@"sequences"];
+    
     jsControlled = [[doc objectForKey:@"jsControlled"] boolValue];
-    
-    NSError *error;
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:nodeGraph options:NSJSONWritingPrettyPrinted error:&error];
-    
-    if (jsonData) {
-        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-        [data appendData:[jsonString dataUsingEncoding:NSUTF8StringEncoding]];
-    }
+    [data appendData:[pNodeGraph JSONData]];
 }
 
 @end

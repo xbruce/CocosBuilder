@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3DBC23183C670C005DB9B0 /* InspectorShadow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3DBC22183C670C005DB9B0 /* InspectorShadow.xib */; };
+		1C3DBC28183C67E8005DB9B0 /* InspectorShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3DBC27183C67E8005DB9B0 /* InspectorShadow.m */; };
+		1C3DBC2C183C9F02005DB9B0 /* InspectorStroke.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3DBC2B183C9EFD005DB9B0 /* InspectorStroke.xib */; };
+		1C3DBC2F183CA10E005DB9B0 /* InspectorStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3DBC2E183CA106005DB9B0 /* InspectorStroke.m */; };
 		1C5C28DA1830A93F00ED03A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C28D81830A93F00ED03A4 /* InfoPlist.strings */; };
 		1C5C28EC1830A94900ED03A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C28EA1830A94900ED03A4 /* InfoPlist.strings */; };
 		1C5C28F21830AA0500ED03A4 /* MooButton.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 1C5C28D21830A93F00ED03A4 /* MooButton.ccbPlugNode */; };
@@ -17,6 +21,7 @@
 		1C5C29081830AC8200ED03A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C29061830AC8200ED03A4 /* InfoPlist.strings */; };
 		1C5C290F1830ACAB00ED03A4 /* CCBXJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C290E1830ACAB00ED03A4 /* CCBXJSON.m */; };
 		1C5C29121830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C29111830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.m */; };
+		1C638076183AF92800473E27 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C638075183AF92800473E27 /* JSONKit.m */; };
 		1C6F8FA41830AECB0098888E /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F8ED71830AECB0098888E /* CCAction.m */; };
 		1C6F8FA51830AECB0098888E /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F8ED91830AECB0098888E /* CCActionCamera.m */; };
 		1C6F8FA61830AECB0098888E /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F8EDB1830AECB0098888E /* CCActionCatmullRom.m */; };
@@ -144,6 +149,12 @@
 		1C6F90711830B12D0098888E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
 		1C6F90721830B1330098888E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
 		1C6F90731830B13A0098888E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		1CAB05C5183E0B1F0062B7A8 /* seq-keyframe-l-sel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05BF183E0B1F0062B7A8 /* seq-keyframe-l-sel2.png */; };
+		1CAB05C6183E0B1F0062B7A8 /* seq-keyframe-l2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C0183E0B1F0062B7A8 /* seq-keyframe-l2.png */; };
+		1CAB05C7183E0B1F0062B7A8 /* seq-keyframe-r-sel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C1183E0B1F0062B7A8 /* seq-keyframe-r-sel2.png */; };
+		1CAB05C8183E0B1F0062B7A8 /* seq-keyframe-r2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C2183E0B1F0062B7A8 /* seq-keyframe-r2.png */; };
+		1CAB05C9183E0B1F0062B7A8 /* seq-keyframe-sel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C3183E0B1F0062B7A8 /* seq-keyframe-sel2.png */; };
+		1CAB05CA183E0B1F0062B7A8 /* seq-keyframe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C4183E0B1F0062B7A8 /* seq-keyframe2.png */; };
 		1CC8DB761830B7F50010ABDF /* Moo Exporters.ccbPlugExport in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 1C5C29011830AC8200ED03A4 /* Moo Exporters.ccbPlugExport */; };
 		581130601639C52500A86D70 /* seq-startmarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5811305F1639C52000A86D70 /* seq-startmarker.png */; };
 		581BCFE8162DADE7007DE600 /* CCBSplitHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581BCFE7162DADE7007DE600 /* CCBSplitHorizontalView.m */; };
@@ -877,6 +888,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C3DBC22183C670C005DB9B0 /* InspectorShadow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorShadow.xib; sourceTree = "<group>"; };
+		1C3DBC26183C67E8005DB9B0 /* InspectorShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorShadow.h; sourceTree = "<group>"; };
+		1C3DBC27183C67E8005DB9B0 /* InspectorShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorShadow.m; sourceTree = "<group>"; };
+		1C3DBC2B183C9EFD005DB9B0 /* InspectorStroke.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorStroke.xib; sourceTree = "<group>"; };
+		1C3DBC2D183CA101005DB9B0 /* InspectorStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorStroke.h; sourceTree = "<group>"; };
+		1C3DBC2E183CA106005DB9B0 /* InspectorStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorStroke.m; sourceTree = "<group>"; };
 		1C5C28D21830A93F00ED03A4 /* MooButton.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooButton.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5C28D31830A93F00ED03A4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1C5C28D71830A93F00ED03A4 /* MooButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MooButton-Info.plist"; sourceTree = "<group>"; };
@@ -898,6 +915,8 @@
 		1C5C290E1830ACAB00ED03A4 /* CCBXJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBXJSON.m; sourceTree = "<group>"; };
 		1C5C29101830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonCCBXCocos2diPhoneWriter.h; sourceTree = "<group>"; };
 		1C5C29111830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonCCBXCocos2diPhoneWriter.m; sourceTree = "<group>"; };
+		1C638074183AF92800473E27 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1C638075183AF92800473E27 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		1C6F8ED61830AECB0098888E /* CCAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAction.h; sourceTree = "<group>"; };
 		1C6F8ED71830AECB0098888E /* CCAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAction.m; sourceTree = "<group>"; };
 		1C6F8ED81830AECB0098888E /* CCActionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionCamera.h; sourceTree = "<group>"; };
@@ -1170,6 +1189,12 @@
 		1C6F90601830AFE00098888E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		1C6F90611830AFE00098888E /* CCControlExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlExtension.h; sourceTree = "<group>"; };
 		1C6F90621830AFE00098888E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1CAB05BF183E0B1F0062B7A8 /* seq-keyframe-l-sel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe-l-sel2.png"; sourceTree = "<group>"; };
+		1CAB05C0183E0B1F0062B7A8 /* seq-keyframe-l2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe-l2.png"; sourceTree = "<group>"; };
+		1CAB05C1183E0B1F0062B7A8 /* seq-keyframe-r-sel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe-r-sel2.png"; sourceTree = "<group>"; };
+		1CAB05C2183E0B1F0062B7A8 /* seq-keyframe-r2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe-r2.png"; sourceTree = "<group>"; };
+		1CAB05C3183E0B1F0062B7A8 /* seq-keyframe-sel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe-sel2.png"; sourceTree = "<group>"; };
+		1CAB05C4183E0B1F0062B7A8 /* seq-keyframe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe2.png"; sourceTree = "<group>"; };
 		5811305E1639BF1200A86D70 /* SequencerTimelineDrawDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequencerTimelineDrawDelegate.h; sourceTree = "<group>"; };
 		5811305F1639C52000A86D70 /* seq-startmarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-startmarker.png"; sourceTree = "<group>"; };
 		581BCFE6162DADE7007DE600 /* CCBSplitHorizontalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSplitHorizontalView.h; sourceTree = "<group>"; };
@@ -2187,6 +2212,8 @@
 		1C5C29031830AC8200ED03A4 /* Moo Exporters */ = {
 			isa = PBXGroup;
 			children = (
+				1C638074183AF92800473E27 /* JSONKit.h */,
+				1C638075183AF92800473E27 /* JSONKit.m */,
 				1C5C29101830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.h */,
 				1C5C29111830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.m */,
 				1C5C29041830AC8200ED03A4 /* Supporting Files */,
@@ -2845,6 +2872,12 @@
 		776041F01498FD630078095D /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				1CAB05BF183E0B1F0062B7A8 /* seq-keyframe-l-sel2.png */,
+				1CAB05C0183E0B1F0062B7A8 /* seq-keyframe-l2.png */,
+				1CAB05C1183E0B1F0062B7A8 /* seq-keyframe-r-sel2.png */,
+				1CAB05C2183E0B1F0062B7A8 /* seq-keyframe-r2.png */,
+				1CAB05C3183E0B1F0062B7A8 /* seq-keyframe-sel2.png */,
+				1CAB05C4183E0B1F0062B7A8 /* seq-keyframe2.png */,
 				E39C917A174C134C00092BD1 /* toolbar-btn-add.png */,
 				E3748302171F83A300486659 /* editor-jump.png */,
 				E388FD18171F03C7002548ED /* editor-border.png */,
@@ -3963,6 +3996,12 @@
 				E385A42214F6A01900DFB12D /* InspectorBlock.m */,
 				E3C65127151C7B8F00D639C0 /* InspectorBlockCCControl.xib */,
 				E3C65129151C7E3600D639C0 /* InspectorBlockCCControl.h */,
+				1C3DBC22183C670C005DB9B0 /* InspectorShadow.xib */,
+				1C3DBC26183C67E8005DB9B0 /* InspectorShadow.h */,
+				1C3DBC27183C67E8005DB9B0 /* InspectorShadow.m */,
+				1C3DBC2B183C9EFD005DB9B0 /* InspectorStroke.xib */,
+				1C3DBC2D183CA101005DB9B0 /* InspectorStroke.h */,
+				1C3DBC2E183CA106005DB9B0 /* InspectorStroke.m */,
 				E3C6512A151C7E3600D639C0 /* InspectorBlockCCControl.m */,
 			);
 			name = "Inspector Properties";
@@ -4934,6 +4973,14 @@
 				1C6F90361830AF4E0098888E /* ChangeLog in Resources */,
 				1C6F90371830AF4E0098888E /* CMakeLists.txt in Resources */,
 				1C6F90701830AFE00098888E /* README.md in Resources */,
+				1C3DBC23183C670C005DB9B0 /* InspectorShadow.xib in Resources */,
+				1C3DBC2C183C9F02005DB9B0 /* InspectorStroke.xib in Resources */,
+				1CAB05C5183E0B1F0062B7A8 /* seq-keyframe-l-sel2.png in Resources */,
+				1CAB05C6183E0B1F0062B7A8 /* seq-keyframe-l2.png in Resources */,
+				1CAB05C7183E0B1F0062B7A8 /* seq-keyframe-r-sel2.png in Resources */,
+				1CAB05C8183E0B1F0062B7A8 /* seq-keyframe-r2.png in Resources */,
+				1CAB05C9183E0B1F0062B7A8 /* seq-keyframe-sel2.png in Resources */,
+				1CAB05CA183E0B1F0062B7A8 /* seq-keyframe2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5141,6 +5188,7 @@
 			files = (
 				1C5C290F1830ACAB00ED03A4 /* CCBXJSON.m in Sources */,
 				1C5C29121830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.m in Sources */,
+				1C638076183AF92800473E27 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5460,6 +5508,8 @@
 				1C6F906D1830AFE00098888E /* CCColourUtils.m in Sources */,
 				1C6F906E1830AFE00098888E /* CCScale9Sprite.m in Sources */,
 				1C6F906F1830AFE00098888E /* Utils.m in Sources */,
+				1C3DBC28183C67E8005DB9B0 /* InspectorShadow.m in Sources */,
+				1C3DBC2F183CA10E005DB9B0 /* InspectorStroke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

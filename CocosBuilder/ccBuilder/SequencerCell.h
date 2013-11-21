@@ -37,6 +37,9 @@
     NSImage* imgKeyframe;
     NSImage* imgKeyframeSel;
     
+    NSImage* imgKeyframe2;
+    NSImage* imgKeyframeSel2;
+    
     NSImage* imgRowBg0;
     NSImage* imgRowBg1;
     NSImage* imgRowBgN;
@@ -47,10 +50,18 @@
     NSImage* imgEaseOut;
     
     NSImage* imgInterpolVis;
+    
+    
+    
     NSImage* imgKeyframeL;
     NSImage* imgKeyframeR;
     NSImage* imgKeyframeLSel;
     NSImage* imgKeyframeRSel;
+    
+    NSImage* imgKeyframeL2;
+    NSImage* imgKeyframeR2;
+    NSImage* imgKeyframeLSel2;
+    NSImage* imgKeyframeRSel2;
     
     NSImage* imgKeyframeHint;
 }

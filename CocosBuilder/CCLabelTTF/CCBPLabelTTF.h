@@ -25,8 +25,21 @@
 #import "cocos2d.h"
 
 @interface CCBPLabelTTF : CCLabelTTF
+{
+    CGFloat _shadowX;
+    CGFloat _shadowY;
+    CGFloat _shadowRadius;
+    CGFloat _strokeWidth;
+    ccColor4B _shadowColor;
+    ccColor4B _strokeColor;
+}
 
 // Add property to maintain backwards compatibility
 @property (nonatomic,assign) int alignment;
+@property (nonatomic,assign) float shadowX;
+@property (nonatomic,assign) float shadowY;
+@property (nonatomic,assign) float shadowRadius;
+
+@property (nonatomic,assign) float strokeWidth;
 
 @end
