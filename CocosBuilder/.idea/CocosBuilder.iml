@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../AUTHORS">
+      <sourceFolder url="file://$MODULE_DIR$/../AUTHORS" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CHANGELOG">
+      <sourceFolder url="file://$MODULE_DIR$/../CHANGELOG" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../Documentation">
+      <sourceFolder url="file://$MODULE_DIR$/../Documentation" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../LICENSE_CocosBuilder.txt">
+      <sourceFolder url="file://$MODULE_DIR$/../LICENSE_CocosBuilder.txt" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../LICENSE_PSMTabBarControl.txt">
+      <sourceFolder url="file://$MODULE_DIR$/../LICENSE_PSMTabBarControl.txt" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../LICENSE_SCEvents.txt">
+      <sourceFolder url="file://$MODULE_DIR$/../LICENSE_SCEvents.txt" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../LICENSE_Sparkle.txt">
+      <sourceFolder url="file://$MODULE_DIR$/../LICENSE_Sparkle.txt" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../README.md">
+      <sourceFolder url="file://$MODULE_DIR$/../README.md" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../jsdoc">
+      <sourceFolder url="file://$MODULE_DIR$/../jsdoc" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../version">
+      <sourceFolder url="file://$MODULE_DIR$/../version" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

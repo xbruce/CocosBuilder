@@ -61,6 +61,9 @@ enum
 @synthesize changeHighlightedStatus         = changeHighlightedStatus_;
 @synthesize preferedSize                    = preferedSize_;
 
+@synthesize cascadeColorEnabled=_cascadeColorEnabled;
+@synthesize cascadeOpacityEnabled=_cascadeOpacityEnabled;
+
 - (void)dealloc
 {
     [backgroundSpriteDispatchTable_ release];
@@ -117,6 +120,9 @@ enum
         self.color                          = ccc3(255.0f, 255.0f, 255.0f);
         self.opacity                        = 255.0f;
         self.opacityModifyRGB               = YES;
+        _cascadeOpacityEnabled = YES;
+        _cascadeOpacityEnabled = YES;
+        
         
         // Initialize the dispatch table
         [self setTitle:[label string]               forState:CCControlStateNormal];

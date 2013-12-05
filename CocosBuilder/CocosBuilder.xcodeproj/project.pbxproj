@@ -155,6 +155,26 @@
 		1CAB05C8183E0B1F0062B7A8 /* seq-keyframe-r2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C2183E0B1F0062B7A8 /* seq-keyframe-r2.png */; };
 		1CAB05C9183E0B1F0062B7A8 /* seq-keyframe-sel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C3183E0B1F0062B7A8 /* seq-keyframe-sel2.png */; };
 		1CAB05CA183E0B1F0062B7A8 /* seq-keyframe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB05C4183E0B1F0062B7A8 /* seq-keyframe2.png */; };
+		1CB0337B18501D2300FE4AB2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		1CB0338118501D2300FE4AB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0337F18501D2300FE4AB2 /* InfoPlist.strings */; };
+		1CB0338B18501D2B00FE4AB2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		1CB0339118501D2B00FE4AB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0338F18501D2B00FE4AB2 /* InfoPlist.strings */; };
+		1CB0339A18501DB200FE4AB2 /* CCLayerRGBA.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 1CB0337A18501D2300FE4AB2 /* CCLayerRGBA.ccbPlugNode */; };
+		1CB0339B18501DB200FE4AB2 /* CCNodeRGBA.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 1CB0338A18501D2B00FE4AB2 /* CCNodeRGBA.ccbPlugNode */; };
+		1CB0339F18501DF700FE4AB2 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB0339E18501DF700FE4AB2 /* CCBPProperties.plist */; };
+		1CB033A118501E0300FE4AB2 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB033A018501E0300FE4AB2 /* CCBPProperties.plist */; };
+		1CB7F54C184EFF31006C2140 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		1CB7F552184EFF31006C2140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7F550184EFF31006C2140 /* InfoPlist.strings */; };
+		1CB7F55B184EFFED006C2140 /* MooLabelTTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7F55A184EFFED006C2140 /* MooLabelTTF.m */; };
+		1CB7F562184F0933006C2140 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7F561184F0933006C2140 /* CCBPProperties.plist */; };
+		1CB7F563184F0AB1006C2140 /* MooLabelTTF.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 1CB7F54B184EFF31006C2140 /* MooLabelTTF.ccbPlugNode */; };
+		1CB7F573184F25A1006C2140 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7F572184F25A0006C2140 /* JSONKit.m */; };
+		1CBB3064183F2C76004ADDF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		1CBB306A183F2C76004ADDF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CBB3068183F2C76004ADDF5 /* InfoPlist.strings */; };
+		1CBB3072183F2EB1004ADDF5 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CBB3071183F2EB1004ADDF5 /* CCBPProperties.plist */; };
+		1CBB3077183F2EBB004ADDF5 /* CCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB3074183F2EBB004ADDF5 /* CCLayout.m */; };
+		1CBB3078183F2EBB004ADDF5 /* MooLayoutBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB3076183F2EBB004ADDF5 /* MooLayoutBox.m */; };
+		1CBB3079183F2EEA004ADDF5 /* MooLayoutBox.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 1CBB3063183F2C76004ADDF5 /* MooLayoutBox.ccbPlugNode */; };
 		1CC8DB761830B7F50010ABDF /* Moo Exporters.ccbPlugExport in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 1C5C29011830AC8200ED03A4 /* Moo Exporters.ccbPlugExport */; };
 		581130601639C52500A86D70 /* seq-startmarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5811305F1639C52000A86D70 /* seq-startmarker.png */; };
 		581BCFE8162DADE7007DE600 /* CCBSplitHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581BCFE7162DADE7007DE600 /* CCBSplitHorizontalView.m */; };
@@ -691,6 +711,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1CB0339618501D8A00FE4AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB0337918501D2300FE4AB2;
+			remoteInfo = CCLayerRGBA;
+		};
+		1CB0339818501D8A00FE4AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB0338918501D2B00FE4AB2;
+			remoteInfo = CCNodeRGBA;
+		};
+		1CB7F564184F16DB006C2140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5C28D11830A93F00ED03A4;
+			remoteInfo = MooButton;
+		};
+		1CB7F566184F16DB006C2140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5C28E41830A94900ED03A4;
+			remoteInfo = MooLayer;
+		};
+		1CB7F568184F16DB006C2140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5C29001830AC8200ED03A4;
+			remoteInfo = "Moo Exporters";
+		};
+		1CB7F56A184F16DB006C2140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBB3062183F2C76004ADDF5;
+			remoteInfo = MooLayoutBox;
+		};
+		1CB7F56C184F16DB006C2140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB7F54A184EFF31006C2140;
+			remoteInfo = MooLabelTTF;
+		};
 		E325F66814F6611300D29BCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
@@ -852,6 +921,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				1CB0339A18501DB200FE4AB2 /* CCLayerRGBA.ccbPlugNode in Copy PlugIns */,
+				1CB0339B18501DB200FE4AB2 /* CCNodeRGBA.ccbPlugNode in Copy PlugIns */,
+				1CB7F563184F0AB1006C2140 /* MooLabelTTF.ccbPlugNode in Copy PlugIns */,
+				1CBB3079183F2EEA004ADDF5 /* MooLayoutBox.ccbPlugNode in Copy PlugIns */,
 				1CC8DB761830B7F50010ABDF /* Moo Exporters.ccbPlugExport in Copy PlugIns */,
 				1C5C28F21830AA0500ED03A4 /* MooButton.ccbPlugNode in Copy PlugIns */,
 				1C5C28F31830AA0500ED03A4 /* MooLayer.ccbPlugNode in Copy PlugIns */,
@@ -1195,6 +1268,34 @@
 		1CAB05C2183E0B1F0062B7A8 /* seq-keyframe-r2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe-r2.png"; sourceTree = "<group>"; };
 		1CAB05C3183E0B1F0062B7A8 /* seq-keyframe-sel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe-sel2.png"; sourceTree = "<group>"; };
 		1CAB05C4183E0B1F0062B7A8 /* seq-keyframe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-keyframe2.png"; sourceTree = "<group>"; };
+		1CB0337A18501D2300FE4AB2 /* CCLayerRGBA.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCLayerRGBA.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB0337E18501D2300FE4AB2 /* CCLayerRGBA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCLayerRGBA-Info.plist"; sourceTree = "<group>"; };
+		1CB0338018501D2300FE4AB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CB0338218501D2300FE4AB2 /* CCLayerRGBA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCLayerRGBA-Prefix.pch"; sourceTree = "<group>"; };
+		1CB0338A18501D2B00FE4AB2 /* CCNodeRGBA.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCNodeRGBA.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB0338E18501D2B00FE4AB2 /* CCNodeRGBA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCNodeRGBA-Info.plist"; sourceTree = "<group>"; };
+		1CB0339018501D2B00FE4AB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CB0339218501D2B00FE4AB2 /* CCNodeRGBA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCNodeRGBA-Prefix.pch"; sourceTree = "<group>"; };
+		1CB0339E18501DF700FE4AB2 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		1CB033A018501E0300FE4AB2 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		1CB7F54B184EFF31006C2140 /* MooLabelTTF.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooLabelTTF.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB7F54F184EFF31006C2140 /* MooLabelTTF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MooLabelTTF-Info.plist"; sourceTree = "<group>"; };
+		1CB7F551184EFF31006C2140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CB7F553184EFF31006C2140 /* MooLabelTTF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MooLabelTTF-Prefix.pch"; sourceTree = "<group>"; };
+		1CB7F559184EFFED006C2140 /* MooLabelTTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooLabelTTF.h; sourceTree = "<group>"; };
+		1CB7F55A184EFFED006C2140 /* MooLabelTTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooLabelTTF.m; sourceTree = "<group>"; };
+		1CB7F561184F0933006C2140 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		1CB7F571184F25A0006C2140 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = "Moo Exporters/JSONKit.h"; sourceTree = SOURCE_ROOT; };
+		1CB7F572184F25A0006C2140 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = "Moo Exporters/JSONKit.m"; sourceTree = SOURCE_ROOT; };
+		1CBB3063183F2C76004ADDF5 /* MooLayoutBox.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooLayoutBox.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBB3067183F2C76004ADDF5 /* MooLayoutBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MooLayoutBox-Info.plist"; sourceTree = "<group>"; };
+		1CBB3069183F2C76004ADDF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CBB306B183F2C76004ADDF5 /* MooLayoutBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MooLayoutBox-Prefix.pch"; sourceTree = "<group>"; };
+		1CBB3071183F2EB1004ADDF5 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		1CBB3073183F2EBB004ADDF5 /* CCLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLayout.h; sourceTree = "<group>"; };
+		1CBB3074183F2EBB004ADDF5 /* CCLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLayout.m; sourceTree = "<group>"; };
+		1CBB3075183F2EBB004ADDF5 /* MooLayoutBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooLayoutBox.h; sourceTree = "<group>"; };
+		1CBB3076183F2EBB004ADDF5 /* MooLayoutBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooLayoutBox.m; sourceTree = "<group>"; };
 		5811305E1639BF1200A86D70 /* SequencerTimelineDrawDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequencerTimelineDrawDelegate.h; sourceTree = "<group>"; };
 		5811305F1639C52000A86D70 /* seq-startmarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seq-startmarker.png"; sourceTree = "<group>"; };
 		581BCFE6162DADE7007DE600 /* CCBSplitHorizontalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSplitHorizontalView.h; sourceTree = "<group>"; };
@@ -1995,6 +2096,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CB0337718501D2300FE4AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB0337B18501D2300FE4AB2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB0338718501D2B00FE4AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB0338B18501D2B00FE4AB2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB7F548184EFF31006C2140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB7F54C184EFF31006C2140 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBB3060183F2C76004ADDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBB3064183F2C76004ADDF5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7789ABBB133AA82000CEFCC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2203,6 +2336,8 @@
 		1C5C28F11830A97000ED03A4 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				1CB7F54D184EFF31006C2140 /* MooLabelTTF */,
+				1CBB3065183F2C76004ADDF5 /* MooLayoutBox */,
 				1C5C28D51830A93F00ED03A4 /* MooButton */,
 				1C5C28E71830A94900ED03A4 /* MooLayer */,
 			);
@@ -2634,6 +2769,90 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		1CB0337C18501D2300FE4AB2 /* CCLayerRGBA */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0337D18501D2300FE4AB2 /* Supporting Files */,
+			);
+			path = CCLayerRGBA;
+			sourceTree = "<group>";
+		};
+		1CB0337D18501D2300FE4AB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB033A018501E0300FE4AB2 /* CCBPProperties.plist */,
+				1CB0337E18501D2300FE4AB2 /* CCLayerRGBA-Info.plist */,
+				1CB0337F18501D2300FE4AB2 /* InfoPlist.strings */,
+				1CB0338218501D2300FE4AB2 /* CCLayerRGBA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CB0338C18501D2B00FE4AB2 /* CCNodeRGBA */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0338D18501D2B00FE4AB2 /* Supporting Files */,
+			);
+			path = CCNodeRGBA;
+			sourceTree = "<group>";
+		};
+		1CB0338D18501D2B00FE4AB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0339E18501DF700FE4AB2 /* CCBPProperties.plist */,
+				1CB0338E18501D2B00FE4AB2 /* CCNodeRGBA-Info.plist */,
+				1CB0338F18501D2B00FE4AB2 /* InfoPlist.strings */,
+				1CB0339218501D2B00FE4AB2 /* CCNodeRGBA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CB7F54D184EFF31006C2140 /* MooLabelTTF */ = {
+			isa = PBXGroup;
+			children = (
+				1CB7F571184F25A0006C2140 /* JSONKit.h */,
+				1CB7F572184F25A0006C2140 /* JSONKit.m */,
+				1CB7F54E184EFF31006C2140 /* Supporting Files */,
+				1CB7F559184EFFED006C2140 /* MooLabelTTF.h */,
+				1CB7F55A184EFFED006C2140 /* MooLabelTTF.m */,
+			);
+			path = MooLabelTTF;
+			sourceTree = "<group>";
+		};
+		1CB7F54E184EFF31006C2140 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB7F561184F0933006C2140 /* CCBPProperties.plist */,
+				1CB7F54F184EFF31006C2140 /* MooLabelTTF-Info.plist */,
+				1CB7F550184EFF31006C2140 /* InfoPlist.strings */,
+				1CB7F553184EFF31006C2140 /* MooLabelTTF-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CBB3065183F2C76004ADDF5 /* MooLayoutBox */ = {
+			isa = PBXGroup;
+			children = (
+				1CBB3073183F2EBB004ADDF5 /* CCLayout.h */,
+				1CBB3074183F2EBB004ADDF5 /* CCLayout.m */,
+				1CBB3075183F2EBB004ADDF5 /* MooLayoutBox.h */,
+				1CBB3076183F2EBB004ADDF5 /* MooLayoutBox.m */,
+				1CBB3071183F2EB1004ADDF5 /* CCBPProperties.plist */,
+				1CBB3066183F2C76004ADDF5 /* Supporting Files */,
+			);
+			path = MooLayoutBox;
+			sourceTree = "<group>";
+		};
+		1CBB3066183F2C76004ADDF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CBB3067183F2C76004ADDF5 /* MooLayoutBox-Info.plist */,
+				1CBB3068183F2C76004ADDF5 /* InfoPlist.strings */,
+				1CBB306B183F2C76004ADDF5 /* MooLayoutBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		776041E01498F4A00078095D /* Document Readers & Writers */ = {
 			isa = PBXGroup;
 			children = (
@@ -3006,6 +3225,10 @@
 				1C5C28D21830A93F00ED03A4 /* MooButton.ccbPlugNode */,
 				1C5C28E51830A94900ED03A4 /* MooLayer.ccbPlugNode */,
 				1C5C29011830AC8200ED03A4 /* Moo Exporters.ccbPlugExport */,
+				1CBB3063183F2C76004ADDF5 /* MooLayoutBox.ccbPlugNode */,
+				1CB7F54B184EFF31006C2140 /* MooLabelTTF.ccbPlugNode */,
+				1CB0337A18501D2300FE4AB2 /* CCLayerRGBA.ccbPlugNode */,
+				1CB0338A18501D2B00FE4AB2 /* CCNodeRGBA.ccbPlugNode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3470,6 +3693,8 @@
 		E35392461518AD0A00471721 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				1CB0337C18501D2300FE4AB2 /* CCLayerRGBA */,
+				1CB0338C18501D2B00FE4AB2 /* CCNodeRGBA */,
 				E3D59123150F5367004180CA /* CCBFile */,
 				E3B7AEC714E3193500DFD402 /* CCNode */,
 				E3C365ED14E9E4D1007CD5FF /* CCSprite */,
@@ -4312,6 +4537,74 @@
 			productReference = 1C5C29011830AC8200ED03A4 /* Moo Exporters.ccbPlugExport */;
 			productType = "com.apple.product-type.bundle";
 		};
+		1CB0337918501D2300FE4AB2 /* CCLayerRGBA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB0338318501D2300FE4AB2 /* Build configuration list for PBXNativeTarget "CCLayerRGBA" */;
+			buildPhases = (
+				1CB0337618501D2300FE4AB2 /* Sources */,
+				1CB0337718501D2300FE4AB2 /* Frameworks */,
+				1CB0337818501D2300FE4AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCLayerRGBA;
+			productName = CCLayerRGBA;
+			productReference = 1CB0337A18501D2300FE4AB2 /* CCLayerRGBA.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1CB0338918501D2B00FE4AB2 /* CCNodeRGBA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB0339318501D2B00FE4AB2 /* Build configuration list for PBXNativeTarget "CCNodeRGBA" */;
+			buildPhases = (
+				1CB0338618501D2B00FE4AB2 /* Sources */,
+				1CB0338718501D2B00FE4AB2 /* Frameworks */,
+				1CB0338818501D2B00FE4AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCNodeRGBA;
+			productName = CCNodeRGBA;
+			productReference = 1CB0338A18501D2B00FE4AB2 /* CCNodeRGBA.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1CB7F54A184EFF31006C2140 /* MooLabelTTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB7F558184EFF31006C2140 /* Build configuration list for PBXNativeTarget "MooLabelTTF" */;
+			buildPhases = (
+				1CB7F547184EFF31006C2140 /* Sources */,
+				1CB7F548184EFF31006C2140 /* Frameworks */,
+				1CB7F549184EFF31006C2140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MooLabelTTF;
+			productName = MooLabelTTF;
+			productReference = 1CB7F54B184EFF31006C2140 /* MooLabelTTF.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1CBB3062183F2C76004ADDF5 /* MooLayoutBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBB3070183F2C76004ADDF5 /* Build configuration list for PBXNativeTarget "MooLayoutBox" */;
+			buildPhases = (
+				1CBB305F183F2C76004ADDF5 /* Sources */,
+				1CBB3060183F2C76004ADDF5 /* Frameworks */,
+				1CBB3061183F2C76004ADDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MooLayoutBox;
+			productName = MooLayoutBox;
+			productReference = 1CBB3063183F2C76004ADDF5 /* MooLayoutBox.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
 		7789ABBD133AA82000CEFCC7 /* CocosBuilder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7789ABDC133AA82000CEFCC7 /* Build configuration list for PBXNativeTarget "CocosBuilder" */;
@@ -4327,6 +4620,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				1CB0339718501D8A00FE4AB2 /* PBXTargetDependency */,
+				1CB0339918501D8A00FE4AB2 /* PBXTargetDependency */,
+				1CB7F565184F16DB006C2140 /* PBXTargetDependency */,
+				1CB7F567184F16DB006C2140 /* PBXTargetDependency */,
+				1CB7F569184F16DB006C2140 /* PBXTargetDependency */,
+				1CB7F56B184F16DB006C2140 /* PBXTargetDependency */,
+				1CB7F56D184F16DB006C2140 /* PBXTargetDependency */,
 				E3F541CE15AED85800EAAFBD /* PBXTargetDependency */,
 				E398C02F14FB82090078E771 /* PBXTargetDependency */,
 				E3B7AED314E31AEF00DFD402 /* PBXTargetDependency */,
@@ -4686,6 +4986,10 @@
 				1C5C28D11830A93F00ED03A4 /* MooButton */,
 				1C5C28E41830A94900ED03A4 /* MooLayer */,
 				1C5C29001830AC8200ED03A4 /* Moo Exporters */,
+				1CBB3062183F2C76004ADDF5 /* MooLayoutBox */,
+				1CB7F54A184EFF31006C2140 /* MooLabelTTF */,
+				1CB0337918501D2300FE4AB2 /* CCLayerRGBA */,
+				1CB0338918501D2B00FE4AB2 /* CCNodeRGBA */,
 			);
 		};
 /* End PBXProject section */
@@ -4738,6 +5042,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C5C29081830AC8200ED03A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB0337818501D2300FE4AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB0338118501D2300FE4AB2 /* InfoPlist.strings in Resources */,
+				1CB033A118501E0300FE4AB2 /* CCBPProperties.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB0338818501D2B00FE4AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB0339118501D2B00FE4AB2 /* InfoPlist.strings in Resources */,
+				1CB0339F18501DF700FE4AB2 /* CCBPProperties.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB7F549184EFF31006C2140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB7F552184EFF31006C2140 /* InfoPlist.strings in Resources */,
+				1CB7F562184F0933006C2140 /* CCBPProperties.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBB3061183F2C76004ADDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBB306A183F2C76004ADDF5 /* InfoPlist.strings in Resources */,
+				1CBB3072183F2EB1004ADDF5 /* CCBPProperties.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5189,6 +5529,38 @@
 				1C5C290F1830ACAB00ED03A4 /* CCBXJSON.m in Sources */,
 				1C5C29121830AD4200ED03A4 /* JsonCCBXCocos2diPhoneWriter.m in Sources */,
 				1C638076183AF92800473E27 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB0337618501D2300FE4AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB0338618501D2B00FE4AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB7F547184EFF31006C2140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB7F55B184EFFED006C2140 /* MooLabelTTF.m in Sources */,
+				1CB7F573184F25A1006C2140 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBB305F183F2C76004ADDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBB3077183F2EBB004ADDF5 /* CCLayout.m in Sources */,
+				1CBB3078183F2EBB004ADDF5 /* MooLayoutBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5646,6 +6018,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1CB0339718501D8A00FE4AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB0337918501D2300FE4AB2 /* CCLayerRGBA */;
+			targetProxy = 1CB0339618501D8A00FE4AB2 /* PBXContainerItemProxy */;
+		};
+		1CB0339918501D8A00FE4AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB0338918501D2B00FE4AB2 /* CCNodeRGBA */;
+			targetProxy = 1CB0339818501D8A00FE4AB2 /* PBXContainerItemProxy */;
+		};
+		1CB7F565184F16DB006C2140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C5C28D11830A93F00ED03A4 /* MooButton */;
+			targetProxy = 1CB7F564184F16DB006C2140 /* PBXContainerItemProxy */;
+		};
+		1CB7F567184F16DB006C2140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C5C28E41830A94900ED03A4 /* MooLayer */;
+			targetProxy = 1CB7F566184F16DB006C2140 /* PBXContainerItemProxy */;
+		};
+		1CB7F569184F16DB006C2140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C5C29001830AC8200ED03A4 /* Moo Exporters */;
+			targetProxy = 1CB7F568184F16DB006C2140 /* PBXContainerItemProxy */;
+		};
+		1CB7F56B184F16DB006C2140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBB3062183F2C76004ADDF5 /* MooLayoutBox */;
+			targetProxy = 1CB7F56A184F16DB006C2140 /* PBXContainerItemProxy */;
+		};
+		1CB7F56D184F16DB006C2140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB7F54A184EFF31006C2140 /* MooLabelTTF */;
+			targetProxy = 1CB7F56C184F16DB006C2140 /* PBXContainerItemProxy */;
+		};
 		E325F66914F6611300D29BCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E325F65914F65C8E00D29BCF /* CCMenuItemImage */;
@@ -5754,6 +6161,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				1C5C29071830AC8200ED03A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CB0337F18501D2300FE4AB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB0338018501D2300FE4AB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CB0338F18501D2B00FE4AB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB0339018501D2B00FE4AB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CB7F550184EFF31006C2140 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB7F551184EFF31006C2140 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CBB3068183F2C76004ADDF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBB3069183F2C76004ADDF5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -6116,6 +6555,274 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = ccbPlugExport;
+			};
+			name = Release;
+		};
+		1CB0338418501D2300FE4AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCLayerRGBA/CCLayerRGBA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "CCLayerRGBA/CCLayerRGBA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		1CB0338518501D2300FE4AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCLayerRGBA/CCLayerRGBA-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "CCLayerRGBA/CCLayerRGBA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Release;
+		};
+		1CB0339418501D2B00FE4AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCNodeRGBA/CCNodeRGBA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "CCNodeRGBA/CCNodeRGBA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		1CB0339518501D2B00FE4AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCNodeRGBA/CCNodeRGBA-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "CCNodeRGBA/CCNodeRGBA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Release;
+		};
+		1CB7F554184EFF31006C2140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MooLabelTTF/MooLabelTTF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "MooLabelTTF/MooLabelTTF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		1CB7F555184EFF31006C2140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MooLabelTTF/MooLabelTTF-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "MooLabelTTF/MooLabelTTF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Release;
+		};
+		1CBB306C183F2C76004ADDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MooLayoutBox/MooLayoutBox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "MooLayoutBox/MooLayoutBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		1CBB306D183F2C76004ADDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MooLayoutBox/MooLayoutBox-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "MooLayoutBox/MooLayoutBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
 			};
 			name = Release;
 		};
@@ -7105,6 +7812,40 @@
 			buildConfigurations = (
 				1C5C290B1830AC8200ED03A4 /* Debug */,
 				1C5C290C1830AC8200ED03A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB0338318501D2300FE4AB2 /* Build configuration list for PBXNativeTarget "CCLayerRGBA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB0338418501D2300FE4AB2 /* Debug */,
+				1CB0338518501D2300FE4AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CB0339318501D2B00FE4AB2 /* Build configuration list for PBXNativeTarget "CCNodeRGBA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB0339418501D2B00FE4AB2 /* Debug */,
+				1CB0339518501D2B00FE4AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CB7F558184EFF31006C2140 /* Build configuration list for PBXNativeTarget "MooLabelTTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB7F554184EFF31006C2140 /* Debug */,
+				1CB7F555184EFF31006C2140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBB3070183F2C76004ADDF5 /* Build configuration list for PBXNativeTarget "MooLayoutBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CBB306C183F2C76004ADDF5 /* Debug */,
+				1CBB306D183F2C76004ADDF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

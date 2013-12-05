@@ -47,6 +47,8 @@
     CCSprite                                *backgroundSprite_;
     CGSize                                  preferedSize_;
     
+    BOOL		_cascadeColorEnabled, _cascadeOpacityEnabled;
+    
     
     float                                   orginalScale_;
     

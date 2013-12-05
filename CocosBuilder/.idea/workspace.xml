@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3efd7f82-e269-4a0b-99c0-09d87671243d" name="Default" comment="" />
+    <ignored path="CocosBuilder.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_x86_64" />
+  <component name="FavoritesManager">
+    <favorites_list name="CocosBuilder" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MooLayoutBox.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="38" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2850">
+              <folding>
+                <element signature="e#1177#1201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MooButton.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MooButton/MooButton.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="38" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14098">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MooButton.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MooButton/MooButton.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="3427" selection-end="3463" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="4636">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCBPProperties.plist" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MooLayer/CCBPProperties.plist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCBPProperties.plist" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MooLayoutBox/CCBPProperties.plist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="220" column="15" selection-start="4899" selection-end="4899" vertical-scroll-proportion="0.7082294" vertical-offset="3896" max-vertical-offset="4408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCLayout.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MooLayoutBox/CCLayout.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1349">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MooLayoutBox.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="60" selection-start="1419" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="931">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CGPointExtension.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/cocos2d-iphone/cocos2d/Support/CGPointExtension.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="0" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="6688">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.m" />
+        <option value="$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.h" />
+        <option value="$PROJECT_DIR$/MooLayoutBox/CCBPProperties.plist" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CocosBuilder" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CocosBuilder" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlugIns (Nodes)" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CocosBuilder" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlugIns (Nodes)" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MooLayoutBox" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CocosBuilder" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlugIns (Nodes)" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MooLayer" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CocosBuilder" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlugIns (Nodes)" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MooButton" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.CocosBuilder">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="CocosBuilder" TARGET_NAME="Cocos2D iPhone" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCBFile" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCBFile" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCBFile" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ccbpublish" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="ccbpublish" PROJECT_NAME="CocosBuilder" TARGET_NAME="ccbpublish" CONFIG_NAME="Debug" PROGRAM_PARAMS="-v -ejson -o /Users/brucex/Sites/foods-mobile/Game/res/ui/LoginLayer.ccb /Users/brucex/Sites/foods-mobile/Game/res/ui/LoginLayer.json" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="CocosBuilder" RUN_TARGET_NAME="ccbpublish" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCControl" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCControl" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCControl" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCControlButton" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCControlButton" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCControlButton" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCLabelBMFont" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCLabelBMFont" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCLabelBMFont" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCLabelTTF" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCLabelTTF" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCLabelTTF" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCLayer" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCLayer" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCLayer" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCLayerColor" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCLayerColor" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCLayerColor" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCLayerGradient" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCLayerGradient" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCLayerGradient" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCMenu" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCMenu" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCMenu" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCMenuItemImage" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCMenuItemImage" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCMenuItemImage" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCNode" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCNode" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCNode" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCParticleSystem" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCParticleSystem" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCParticleSystem" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCScale9Sprite" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCScale9Sprite" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCScale9Sprite" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCScrollView" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCScrollView" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCScrollView" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCSprite" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CCSprite" PROJECT_NAME="CocosBuilder" TARGET_NAME="CCSprite" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Cocos2D iPhone" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Cocos2D iPhone" PROJECT_NAME="CocosBuilder" TARGET_NAME="Cocos2D iPhone" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CocosBuilder" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="CocosBuilder" PROJECT_NAME="CocosBuilder" TARGET_NAME="CocosBuilder" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="CocosBuilder" RUN_TARGET_NAME="CocosBuilder" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Moo Exporters" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Moo Exporters" PROJECT_NAME="CocosBuilder" TARGET_NAME="Moo Exporters" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MooButton" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="MooButton" PROJECT_NAME="CocosBuilder" TARGET_NAME="MooButton" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MooLayer" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="MooLayer" PROJECT_NAME="CocosBuilder" TARGET_NAME="MooLayer" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MooLayoutBox" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="MooLayoutBox" PROJECT_NAME="CocosBuilder" TARGET_NAME="MooLayoutBox" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Fragaria Document Based App" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Fragaria Document Based App" PROJECT_NAME="Fragaria" TARGET_NAME="Fragaria Document Based App" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Fragaria" RUN_TARGET_NAME="Fragaria Document Based App" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Fragaria" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Fragaria" PROJECT_NAME="Fragaria" TARGET_NAME="Fragaria" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Fragaria" RUN_TARGET_NAME="Fragaria" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MGSFragaria" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="MGSFragaria" PROJECT_NAME="Fragaria" TARGET_NAME="MGSFragaria" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <list size="25">
+      <item index="0" class="java.lang.String" itemvalue="Application.CCBFile" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ccbpublish" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CCControl" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CCControlButton" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CCLabelBMFont" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CCLabelTTF" />
+      <item index="6" class="java.lang.String" itemvalue="Application.CCLayer" />
+      <item index="7" class="java.lang.String" itemvalue="Application.CCLayerColor" />
+      <item index="8" class="java.lang.String" itemvalue="Application.CCLayerGradient" />
+      <item index="9" class="java.lang.String" itemvalue="Application.CCMenu" />
+      <item index="10" class="java.lang.String" itemvalue="Application.CCMenuItemImage" />
+      <item index="11" class="java.lang.String" itemvalue="Application.CCNode" />
+      <item index="12" class="java.lang.String" itemvalue="Application.CCParticleSystem" />
+      <item index="13" class="java.lang.String" itemvalue="Application.CCScale9Sprite" />
+      <item index="14" class="java.lang.String" itemvalue="Application.CCScrollView" />
+      <item index="15" class="java.lang.String" itemvalue="Application.CCSprite" />
+      <item index="16" class="java.lang.String" itemvalue="Application.Cocos2D iPhone" />
+      <item index="17" class="java.lang.String" itemvalue="Application.CocosBuilder" />
+      <item index="18" class="java.lang.String" itemvalue="Application.Moo Exporters" />
+      <item index="19" class="java.lang.String" itemvalue="Application.MooButton" />
+      <item index="20" class="java.lang.String" itemvalue="Application.MooLayer" />
+      <item index="21" class="java.lang.String" itemvalue="Application.MooLayoutBox" />
+      <item index="22" class="java.lang.String" itemvalue="Application.Fragaria Document Based App" />
+      <item index="23" class="java.lang.String" itemvalue="Application.Fragaria" />
+      <item index="24" class="java.lang.String" itemvalue="Application.MGSFragaria" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3efd7f82-e269-4a0b-99c0-09d87671243d" name="Default" comment="" />
+      <created>1385629784342</created>
+      <updated>1385629784342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="916" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.49973643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20295203" sideWeight="0.5389447" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45646766" sideWeight="0.49973643" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46105528" sideWeight="0.5002636" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914573" sideWeight="0.49973643" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="9" selection-start="3907" selection-end="3907" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3078">
+          <folding>
+            <element signature="e#1177#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooButton/MooButton.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooButton/MooButton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3427" selection-end="3463" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="4636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayer/CCBPProperties.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/CCBPProperties.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="27" selection-start="4859" selection-end="4859" vertical-scroll-proportion="0.0" vertical-offset="4142" max-vertical-offset="4769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/CCLayout.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="703" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/cocos2d-iphone/cocos2d/Support/CGPointExtension.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="6688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/cocos2d-iphone/cocos2d/Support/CGPointExtension.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.0" vertical-offset="1826" max-vertical-offset="6669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayer/CCBPProperties.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/CCLayout.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooButton/MooButton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3427" selection-end="3463" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="4636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooButton/MooButton.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="60" selection-start="1419" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/MooLayoutBox.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="38" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2850">
+          <folding>
+            <element signature="e#1177#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MooLayoutBox/CCBPProperties.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="15" selection-start="4899" selection-end="4899" vertical-scroll-proportion="0.7082294" vertical-offset="3896" max-vertical-offset="4408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
